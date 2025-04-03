@@ -1,0 +1,146 @@
+/* Contact Page Styling */
+.contact-container {
+  background: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFD700; /* Gold */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Contact Content (Flexbox Layout) */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.2);
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.contact-info svg {
+  color: #FFD700; /* Gold icons */
+  font-size: 1.5rem;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  background: #FFD700;
+  color: black;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: white;
+  color: black;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column; /* Stack the contact info and form on smaller screens */
+    align-items: center;
+  }
+
+  .contact-info {
+    margin-bottom: 20px; /* Add some space between sections */
+    text-align: center;
+  }
+
+  .contact-title {
+    font-size: 2rem; /* Adjust title size on smaller screens */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem; /* Adjust input/textarea size */
+  }
+
+  .contact-form button {
+    padding: 10px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 20px; /* Reduce padding on very small screens */
+  }
+
+  .contact-title {
+    font-size: 1.8rem; /* Make title smaller for mobile */
+  }
+
+  .contact-info {
+    font-size: 1rem; /* Reduce text size */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem; /* Adjust font size for form inputs */
+  }
+
+  .contact-form button {
+    padding: 8px; /* Reduce padding for mobile devices */
+  }
+
+  .contact-content {
+    width: 100%; /* Make the contact form container full width */
+    padding: 20px;
+  }
+}

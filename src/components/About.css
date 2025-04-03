@@ -1,0 +1,8 @@
+
+  
+ 
+ 
+  video::-webkit-media-controls {
+    display: none !important; /* Hide all media controls */
+  }
+  

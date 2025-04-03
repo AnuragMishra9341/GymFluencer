@@ -1,0 +1,15 @@
+/* Prevent hamburger icon from changing color */
+.hamburger-icon {
+    color: #f8f8f8 !important; /* Set the icon color to white */
+    transition: color 0.3s ease;
+  }
+  
+  .hamburger-icon:hover,
+  .hamburger-icon:active {
+    color: #f8f8f8 !important; /* Ensure the color remains white on hover and active states */
+  }
+  
+  .hamburger-menu-btn {
+    color: #f8f8f8; /* Set color for the IconButton to match the color of the icon */
+  }
+  
