@@ -1,6 +1,6 @@
-# 🏋️‍♂️ GymFluencer – Fitness App
+#  GymFluencer – Fitness App
 
-**GitHub:** [github.com/AnuragMishra9341/GymFluencer](https://github.com/AnuragMishra9341/GymFluencer)
+**Live Demo:** [gymenthusiast.netlify.app](https://gymenthusiast.netlify.app)  
 
 A responsive fitness app that helps users explore exercises by body part, muscle, or equipment — with embedded video tutorials and intuitive filtering.
 
@@ -9,7 +9,7 @@ A responsive fitness app that helps users explore exercises by body part, muscle
 ### 🔧 Tech Stack
 - **Frontend:** React.js, Material UI
 - **APIs:** ExerciseDB (RapidAPI), YouTube API
-- **Optional Deployment:** Netlify or Vercel
+- **Deployment:** Netlify
 
 ---
 
@@ -21,8 +21,8 @@ A responsive fitness app that helps users explore exercises by body part, muscle
 ---
 
 ###  Highlights
-- ⏱️ 25% faster content load via lazy loading and caching
-- 📚 Simplifies workout discovery through category-wise filtering
+-  25% faster content load via lazy loading and caching
+-  Simplifies workout discovery through category-wise filtering
 
 ---
 
